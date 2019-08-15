@@ -1,0 +1,6 @@
+.Footer {
+  background:#3CB371;
+  display: flex;
+  justify-content: center;
+  font-size: 2em;
+}
