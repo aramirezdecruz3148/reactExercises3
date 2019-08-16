@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import ColorList from './ColorComponents/ColorList';
+import WaterTracker from './WaterTracker';
 
 export default class App extends Component {
   render() {
     return (
       <>
-        <ColorList />
+        <WaterTracker />
       </>
     );
   }
