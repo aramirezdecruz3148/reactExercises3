@@ -7,14 +7,14 @@ export default class WaterTracker extends Component {
   }
 
   settingAmount = ({ target }) => {
-    this.setState({ amount: parseInt(target.value) });
+    this.setState({ amount: Number.parseInt(target.value) });
   }
 
-  handleWaterIntake = () => {
+  handleWaterIntake = (event) => {
     event.preventDefault();
     this.setState(state => {
       return {
-        water: state.amount + state.water
+        water: state.amount + state.water,
       };
     });
   }
